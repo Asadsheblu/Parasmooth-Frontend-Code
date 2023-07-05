@@ -26,7 +26,7 @@ const Navbar = () => {
           <a class="nav-link" href="#"><FaPersonBooth className='text-primary'/> Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><FaUser className='text-primary'/> About</a>
+          <Link class="nav-link" href="/Home/AboutUs"><FaUser className='text-primary'/> About</Link>
         </li>
         <li class="nav-item">
           <Link href="/Home/Review/Reviewadd"  class="nav-link" ><FaPencilAlt className='text-primary'/>  Add review</Link>
