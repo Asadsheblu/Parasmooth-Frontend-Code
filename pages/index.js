@@ -7,6 +7,7 @@ import Values from './Home/Navbar/Values/Values'
 import Client from './Home/Client/Client'
 import Service from './Home/Services/Service'
 import Review from './Home/Review/Review'
+import Choose from './Home/Choose/Choose'
 export default function Home() {
   
   return (
@@ -36,6 +37,7 @@ export default function Home() {
         <About/>
         <Service/>
         <Values/>
+        <Choose/>
         <Client/>
         <Review/>
     

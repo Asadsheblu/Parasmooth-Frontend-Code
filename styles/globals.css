@@ -85,3 +85,15 @@ transition: .3s cubic-bezier(.5,1,.89,1);;
   position: sticky;
   top: 0;
 }
+.c-card{
+   z-index: 1;
+    position: relative;
+    background-color: #eeeefc;
+    padding: 30px 50px 30px 30px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    transition: .3s cubic-bezier(.5,1,.89,1);
+}
+.c-card:hover{
+  border-bottom: 2px solid salmon;
+}
