@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Dancing+Script:wght@700&family=Fasthand&family=Poppins&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Barlow', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Fasthand', cursive;
+font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -13,4 +17,71 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.banner{
+  background-color: #f6f2eb;
+}
+/* .zoom-in-out-box {
+  margin: 24px;
+  width: 400px;
+  height: 550px;
+  animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(, .5);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+} */
+.circle{
+  height: 60px;
+  width: 60px;
+  background-color: #929fc5;
+  border-radius: 50%;
+  display: inline-block;
+}
+.about{
+  background-color: #f4f5fa;
+}
+.about-img{
+  border-radius: 0 120px 0 0;
+  width: 521px;
+  height: 500px;
+
+
+}
+.page_banner {
+  overflow: hidden;
+  position: relative;
+  padding: 260px 0 150px;
+  background: linear-gradient(0deg,rgba(83,85,223,.2),rgba(83,85,223,0))
+}
+/* .card{
+  background-color: #eeeefc;
+} */
+.graph{
+  margin-top: -74px;
+  padding-left: 50px;
+}
+.card:hover{
+background-color: #5355df;
+color: white!important;
+border-radius: 22px;
+transition: .3s cubic-bezier(.5,1,.89,1);;
+}
+
+.item_content {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed salmon;
+}
+.sticky-nav {
+  position: sticky;
+  top: 0;
 }
