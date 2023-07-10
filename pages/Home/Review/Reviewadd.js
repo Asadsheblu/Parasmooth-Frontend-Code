@@ -9,7 +9,7 @@ const Reviewadd = () => {
         const category=e.target.category.value
       const post={email,name,category,review}
       
-      fetch("http://localhost:5000/review",{
+      fetch("https://parasmooth-backend-code.onrender.com/review",{
         method:"POST",
         headers:{
           "content-type":"application/json"

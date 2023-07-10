@@ -34,7 +34,7 @@ const Review = () => {
     };
     const [reviews,setReview]=useState([])
     useEffect(()=>{
-        fetch("http://localhost:5000/review")
+        fetch("https://parasmooth-backend-code.onrender.com/review")
         .then(res=>res.json())
         .then(data=>setReview(data))
     },[])
