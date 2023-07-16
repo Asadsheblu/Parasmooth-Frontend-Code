@@ -44,7 +44,7 @@ const Review = () => {
 
           
             <div className='col-md-6'>
-              <Image src={poster} className='img-fluid'/>
+              <Image src={poster} alt='poster' className='img-fluid'/>
             </div>
             <div className='col-md-6 p-5'>
             <Slider {...setting}>
