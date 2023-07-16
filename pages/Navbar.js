@@ -32,7 +32,7 @@ const Navbar = () => {
           <Link href="/Home/Review/Reviewadd"  class="nav-link" ><FaPencilAlt className='text-primary'/>  Add review</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/Home/Contact/Contact"><FaEnvelope className='text-primary'/> Contact</a>
+          <Link class="nav-link" href="/Home/Contact/Contact"><FaEnvelope className='text-primary'/> Contact</Link>
         </li>
        
       
