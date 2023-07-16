@@ -1,10 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { FaEnvelope, FaGlobe, FaHome, FaMendeley, FaPencilAlt, FaPersonBooth, FaPrescription, FaUser } from 'react-icons/fa';
-import ReactLanguageSelect from 'react-languages-select';
 
-//import css module
-import 'react-languages-select/css/react-languages-select.css';
 
 
 
@@ -23,7 +20,7 @@ const Navbar = () => {
         <Link className="nav-link active" aria-current="page" href="/"><FaHome className='text-primary'/> Home</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><FaPersonBooth className='text-primary'/> Services</a>
+          <Link class="nav-link" href="/"><FaPersonBooth className='text-primary'/> Services</Link>
         </li>
         <li class="nav-item">
           <Link class="nav-link" href="/Home/AboutUs"><FaUser className='text-primary'/> About</Link>
@@ -37,9 +34,7 @@ const Navbar = () => {
        
       
       </ul>
-      <FaGlobe className='text-primary'/>
-    <ReactLanguageSelect
-    languages={["en", "fr", "de", "it", "es"]} />
+     
 
 
 
