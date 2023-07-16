@@ -15,7 +15,7 @@ const Footer = () => {
                         </button>
                     </div>
                     <div className='col-md-6 pt-3 ps-5 pe-5'>
-                    <Image src={cta} className='img-fluid w-75'/>
+                    <Image src={cta} alt='contact-img' className='img-fluid w-75'/>
                     </div>
 
                 </div>
